@@ -38,13 +38,4 @@ This project implements AI-driven predictive maintenance for vehicles, leveragin
 4. Run the Streamlit application: `streamlit run app.py`
 5. Access the web interface via the provided URL.
 
-## Contributors
 
-- Dharshan A
-- Pravin R F
-- Rishikaandh Devadoss
-- Abinayaa M K
-
-## Contact
-
-For questions or inquiries, please contact dharshanathi21@gmail.com.
