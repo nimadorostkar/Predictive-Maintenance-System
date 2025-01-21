@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 
 
-
 # Load the trained model (replace 'model.pkl' with your actual file name)
 with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
@@ -38,6 +37,7 @@ def main():
     st.sidebar.title("Feature Descriptions")
     for feature, description in feature_descriptions.items():
         st.sidebar.markdown(f"**{feature}:** {description}")
+        
 
     # Input widgets with customized ranges
     engine_rpm = st.slider("Engine RPM", min_value=float(custom_ranges['Engine rpm'][0]), 
