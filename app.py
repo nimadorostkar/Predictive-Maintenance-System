@@ -1,7 +1,7 @@
+
 import streamlit as st
 import pickle
 import numpy as np
-
 
 
 # Load the trained model (replace 'model.pkl' with your actual file name)
@@ -89,4 +89,5 @@ def predict_condition(engine_rpm, lub_oil_pressure, fuel_pressure, coolant_press
 
 if __name__ == "__main__":
     main()
+
 
