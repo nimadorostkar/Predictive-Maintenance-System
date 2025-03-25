@@ -1,6 +1,5 @@
 # Predictive Maintenance System with Real-Time Visualization
 
-
 ## Overview
 This project implements AI-driven predictive maintenance for vehicles, leveraging machine learning techniques to forecast maintenance needs based on real-time sensor data. The system preprocesses sensor data for reliability, utilizes Gradient Boosting Machine (GBM) models for prediction, and integrates a web application interface for real-time data visualization and predictions. The goal is to enable proactive fleet management, reduce costs, and ensure efficient transportation by predicting maintenance probability, estimating maintenance dates in advance, and providing probability percentages for potential part failures.
 
@@ -33,5 +32,4 @@ This project implements AI-driven predictive maintenance for vehicles, leveragin
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the Streamlit application: `streamlit run app.py`
 5. Access the web interface via the provided URL.
-
 
